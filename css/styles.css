@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #000;
+}
+
+.header__logo-img{
+    height: 80px;
+}
+
+.header__inner {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list li{
+    margin-left: 150px;
+}
+
+.header__logo {
+}
+
+.menu {
+}
