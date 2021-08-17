@@ -5,6 +5,11 @@
 
 body{
     color: #fff;
+    background-color: #000;
+}
+
+body.home {
+    background: #000 url(/img/lines.png) 0 0 no-repeat;
 }
 
 .container{
@@ -18,28 +23,81 @@ a{
     text-decoration: none;
 }
 
+/* Header */
+
 .header {
-    background-color: #000;
+    border-bottom: 1px solid #585858;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
 }
 
 .header__logo-img{
-    height: 80px;
+    height: 70px;
 }
 
 .header__inner {
+    font-size: 16px;
     height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu__list {
+.nav {
     display: flex;
 }
 
-.menu__list li{
-    margin-left: 150px;
+.nav__link{
+    position: relative;
+    margin-left: 25px;
+    transition: color .2s linear;
 }
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    opacity: 0;
+
+    background-color: #f3dc59;
+
+    position: absolute;
+    top: 120%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity 0.2s linear;
+}
+
+.nav__link:hover:after,
+.nav__link.active:after {
+    opacity: 1;
+
+}
+
+.header__phone a,
+.header__social a{
+    transition: color .2s linear;
+}
+
+
+.nav__link:hover,
+.header__phone a:hover,
+.header__social a:hover{
+    color: #f3dc59;
+}
+
+
+
+.header__social{
+    font-size: 26px;
+}
+
+.header__social a{
+    margin-left: 6px;
+}
+
 
 .header__logo {
 }
