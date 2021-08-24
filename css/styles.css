@@ -293,11 +293,13 @@ font-family: 'Roboto', sans-serif;
 .footer__inner{
     background-color: #000000;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-basis: auto;
+    justify-content: space-between; 
+    align-items: flex-end;
     font-weight: bolder;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 footer__inner-logo{
