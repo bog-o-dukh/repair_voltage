@@ -62,7 +62,7 @@ a{
     height: 1px;
     opacity: 0;
 
-    background-color: #f3dc59;
+    background-color: #dbb722;
 
     position: absolute;
     top: 120%;
@@ -79,26 +79,20 @@ a{
 }
 
 .header__phone a,
-.header__social a{
+.intro__footer__social a {
     transition: color .2s linear;
 }
 
 
 .nav__link:hover,
 .header__phone a:hover,
-.header__social a:hover{
-    color: #f3dc59;
+.intro__footer__social a:hover {
+    color: #dbb722;
 }
 
 
 
-.header__social{
-    font-size: 26px;
-}
 
-.header__social a{
-    margin-left: 6px;
-}
 
 /* Intro */
 .intro{
@@ -125,7 +119,7 @@ a{
 .intro__form{
   height: 500px;
     width: 400px;
-    border: 5px solid #f3dc59;
+    border: 5px solid #dbb722;
     padding: 40px;
     border-radius: 25px/25px;
 }
@@ -170,7 +164,7 @@ a{
     text-transform: uppercase;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    border: 3px solid #f3dc59;
+    border: 3px solid #dbb722;
     border-radius: 12px/12px;
     background-color: #000;
     padding: 10px 20px;
@@ -199,6 +193,15 @@ a{
 
 .intro__footer-adress{
     font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+}
+
+.intro__footer__social {
+  font-size: 32px;
+}
+
+.intro__footer__social a {
+  margin-left: 10px;
 }
 
 /* brands */
@@ -231,7 +234,7 @@ a{
     height: 140px;
     margin: 24px;
     background-color: rgb(29, 29, 29);
-    border: 3px solid #f3dc59;
+    border: 3px solid #dbb722;
     border-radius: 10%;
 }
 
