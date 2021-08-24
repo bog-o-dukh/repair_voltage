@@ -267,3 +267,11 @@ a{
     height: 100px;
     width: 110px;
 }
+
+/*footer*/
+.footer {
+border-top: 1px solid #dbb722;
+}
+.footer__inner{
+    display:flex;
+}
