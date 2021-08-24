@@ -109,7 +109,7 @@ a{
     position: relative;
 
     animation-name: move-right, opacity0to1;
-    animation-duration: 1s;
+    animation-duration: 1.5s, 3s;
 }
 
 .slider__img{
@@ -130,7 +130,7 @@ a{
 
     animation-name: move-left,
     opacity0to1;
-    animation-duration: 1s;
+    animation-duration: 1.5s, 3s;
 }
 
 
@@ -197,8 +197,12 @@ a{
 .intro__footer-inner{
     height: 100px;
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
+
+    animation-name: move-up, opacity0to1;
+    animation-duration: 1.5s, 3s;
     
 }
 
@@ -326,6 +330,15 @@ font-family: 'Roboto', sans-serif;
 
   to {
     right: 0px;
+  }
+}
+
+@keyframes move-up {
+  from {
+    top: 60px;
+  }
+  to {
+    top: 0px;
   }
 }
 
