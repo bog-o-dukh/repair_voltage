@@ -118,15 +118,12 @@ a{
     height: 450px;
 }
 
-.slick-prev {
-    display: none;
-}
-
-.slick-next {
-    display: none;
+.slick-arrow {
+    display: none !important;
 }
 
 .intro__form{
+  height: 500px;
     width: 400px;
     border: 5px solid #f3dc59;
     padding: 40px;
