@@ -272,9 +272,15 @@ a{
 
 .footer {
 border-top: 1px solid #dbb722;
+font-family: 'Roboto', sans-serif;
 }
 
 .footer__inner{
     display:flex;
     justify-content: space-between;
+    align-items: flex-end;
+}
+.pa {
+    font-family: 'Roboto', sans-serif;
+    color:#dbb722;
 }
