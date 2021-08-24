@@ -289,7 +289,12 @@ font-family: 'Roboto', sans-serif;
 .footer__inner{
     display:flex;
     justify-content: space-between;
-<<<<<<< HEAD
+    align-items: flex-end;
+}
+
+.pa {
+    font-family: 'Roboto', sans-serif;
+    color: #dbb722;
 }
 
 
@@ -334,11 +339,4 @@ font-family: 'Roboto', sans-serif;
   }
 }
 
-=======
-    align-items: flex-end;
-}
-.pa {
-    font-family: 'Roboto', sans-serif;
-    color:#dbb722;
-}
->>>>>>> b02785b9946181785aa1ef68630af6c03047a20e
+
