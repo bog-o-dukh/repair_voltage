@@ -106,6 +106,10 @@ a{
 
 .slider{
     max-width: 700px;
+    position: relative;
+
+    animation-name: move-right, opacity0to1;
+    animation-duration: 1s;
 }
 
 .slider__img{
@@ -122,7 +126,14 @@ a{
     border: 5px solid #dbb722;
     padding: 40px;
     border-radius: 25px/25px;
+    position: relative;
+
+    animation-name: move-left,
+    opacity0to1;
+    animation-duration: 1s;
 }
+
+
 
 .intro__form__title{
     text-align: center;
@@ -278,3 +289,46 @@ border-top: 1px solid #dbb722;
     display:flex;
     justify-content: space-between;
 }
+
+
+/* Keyframes */
+@keyframes move-left {
+  from {
+    left: 300px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes opacity0to1 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes move-right {
+  from {
+    right: 300px;
+  }
+
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes opacity0to1 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
