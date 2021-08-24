@@ -96,9 +96,7 @@ a{
 
 
 /* Intro */
-.intro{
-    height: 880px;
-}
+
 .intro__main{
     padding: 115px 0;
     display: flex;
